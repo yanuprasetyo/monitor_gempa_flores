@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-08-17T09:00:00+00:00",
+  "disaster_date": "2026-08-15T00:00:00+00:00",
+  "categories": [
+    { "id": "korban_kerusakan", "label": "Korban & Kerusakan" },
+    { "id": "tanggap_darurat", "label": "Tanggap Darurat & Evakuasi" },
+    { "id": "rehab_rekon", "label": "Rehabilitasi & Rekonstruksi" },
+    { "id": "pemulihan_bansos", "label": "Pemulihan & Bantuan Sosial" },
+    { "id": "gempa_umum", "label": "Gempa & Gempa Susulan (Umum)" }
+  ],
+  "total_articles": 10,
+  "articles": [
+    {
+      "title": "Kisah Korban Gempa Flores M 7,7 di RSUD Maumere: Panik Cabut Infus hingga Bayi Dirawat di Pengungsian",
+      "link": "https://regional.kompas.com/read/2026/08/17/081645578/kisah-korban-gempa-flores-m-77-di-rsud-maumere-panik-cabut-infus-hingga",
+      "source": "Kompas.com",
+      "published": "2026-08-17T01:16:45+00:00",
+      "category": "tanggap_darurat"
+    },
+    {
+      "title": "Gempa Flores 2026 Mirip Kejadian 1992, Ini Alasan Tsunami Tak Terlalu Tinggi Menurut Pakar ITB",
+      "link": "https://www.kompas.com/edu/read/2026/08/16/090619371/gempa-flores-2026-mirip-kejadian-1992-ini-alasan-tsunami-tak-terlalu-tinggi",
+      "source": "Kompas.com",
+      "published": "2026-08-16T02:06:19+00:00",
+      "category": "gempa_umum"
+    },
+    {
+      "title": "Melihat dari Dekat Dampak Gempa Flores, Korban Tewas Bertambah Menjadi 33 Orang",
+      "link": "https://www.kompas.id/artikel/melihat-dari-dekat-dampak-gempa-flores-sudah-33-korban",
+      "source": "Kompas.id",
+      "published": "2026-08-16T05:00:00+00:00",
+      "category": "korban_kerusakan"
+    },
+    {
+      "title": "Rentetan Gempa Flores dan Trauma Tsunami",
+      "link": "https://www.kompas.id/artikel/rentetan-gempa-flores-dan-trauma-tsunami",
+      "source": "Kompas.id",
+      "published": "2026-08-16T07:00:00+00:00",
+      "category": "tanggap_darurat"
+    },
+    {
+      "title": "5 Gempa Terbesar di Flores Sepanjang Sejarah, Tahun 2026 Termasuk",
+      "link": "https://www.metrotvnews.com/read/kM6C46Yx-5-gempa-terbesar-di-flores-sepanjang-sejarah-tahun-2026-termasuk",
+      "source": "Metro TV News",
+      "published": "2026-08-15T10:00:00+00:00",
+      "category": "gempa_umum"
+    },
+    {
+      "title": "Gempa M 7,7 Guncang Flores, Pasien RSUD Ende dan Maumere Dievakuasi",
+      "link": "https://regional.kompas.com/read/2026/08/15/121834178/gempa-m-77-guncang-flores-pasien-rsud-ende-dan-maumere-dievakuasi",
+      "source": "Kompas.com",
+      "published": "2026-08-15T05:18:34+00:00",
+      "category": "tanggap_darurat"
+    },
+    {
+      "title": "Gempa Magnitudo 7,7 Guncang Flores, Warga Berhamburan dan Bangunan Rusak",
+      "link": "https://nu.or.id/daerah/gempa-magnitudo-7-7-guncang-flores-warga-berhamburan-dan-bangunan-rusak-yF1io",
+      "source": "NU Online",
+      "published": "2026-08-15T04:58:24+00:00",
+      "category": "korban_kerusakan"
+    },
+    {
+      "title": "Gempa Dahsyat M 7,7 Guncang Flores: Pelabuhan Maumere Runtuh, Korban Tertimbun",
+      "link": "https://media.alkhairaat.id/gempa-flores-m77-ntt-15-agustus-2026/",
+      "source": "Media Alkhairaat",
+      "published": "2026-08-15T04:58:00+00:00",
+      "category": "korban_kerusakan"
+    },
+    {
+      "title": "Gempa 7,7 M Guncang Flores, Dua Warga Tewas Tertimpa Reruntuhan Pelabuhan Maumere",
+      "link": "https://beritatkp.com/gempa-77-m-guncang-flores-dua-warga-tewas-tertimpa-reruntuhan-pelabuhan-maumere/",
+      "source": "BeritaTKP.Com",
+      "published": "2026-08-15T05:30:00+00:00",
+      "category": "korban_kerusakan"
+    },
+    {
+      "title": "Flores ternyata kerap dilanda gempa merusak",
+      "link": "https://makassar.antaranews.com/berita/636111/flores-kerap-dilanda-gempa-merusak",
+      "source": "ANTARA News Makassar",
+      "published": "2026-08-15T06:00:00+00:00",
+      "category": "gempa_umum"
+    }
+  ]
+}
