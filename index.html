@@ -268,6 +268,8 @@
   }
   .export-btn:hover{background:var(--steel-soft);}
 
+  .chart-box{position:relative;width:100%;}
+
   .heatmap{display:flex;flex-wrap:wrap;gap:3px;}
   .heatmap .cell{
     width:11px;height:11px;border-radius:2px;
@@ -365,7 +367,7 @@
 
       <div class="card">
         <h2>Tren Jumlah Berita</h2>
-        <canvas id="trendChart" height="90"></canvas>
+        <div class="chart-box" style="height:220px;"><canvas id="trendChart"></canvas></div>
       </div>
     </div>
 
@@ -377,12 +379,12 @@
 
       <div class="card">
         <h2>Fase Penanganan Bencana</h2>
-        <canvas id="phaseChart" height="180"></canvas>
+        <div class="chart-box" style="height:220px;"><canvas id="phaseChart"></canvas></div>
       </div>
 
       <div class="card">
         <h2>Top Sumber Media</h2>
-        <canvas id="sourceChart" height="200"></canvas>
+        <div class="chart-box" style="height:260px;"><canvas id="sourceChart"></canvas></div>
       </div>
 
       <div class="card">
@@ -601,6 +603,8 @@ function renderPhaseChart(){
     data: { labels, datasets: [{ data, backgroundColor: colors, borderRadius: 5 }] },
     options: {
       indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: { x: { beginAtZero: true, ticks: { precision: 0 } } }
     }
@@ -621,6 +625,8 @@ function renderSourceChart(){
     },
     options: {
       indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: { x: { beginAtZero: true, ticks: { precision: 0 } } }
     }
@@ -651,6 +657,8 @@ function renderTrendChart(){
       }]
     },
     options: {
+      responsive: true,
+      maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: { y: { beginAtZero: true, ticks: { precision: 0 } } }
     }
